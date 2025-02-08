@@ -1,9 +1,11 @@
+
 import { useState } from "react";
 import FileUpload from "@/components/FileUpload";
 import DataPreview from "@/components/DataPreview";
 import TransformPanel from "@/components/TransformPanel";
 import ExportPanel from "@/components/ExportPanel";
 import StatsDashboard from "@/components/StatsDashboard";
+import DataVisualization from "@/components/DataVisualization";
 import { Database, BrainCircuit } from "lucide-react";
 import { DataRow } from "@/lib/fileProcessing";
 
@@ -35,11 +37,14 @@ const Index = () => {
         </div>
 
         <div className="grid gap-8 md:grid-cols-3">
-          <div className="md:col-span-2 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
-            <div className="p-6">
-              <h2 className="text-2xl font-semibold mb-4">Data Preview</h2>
-              <DataPreview data={data} />
+          <div className="md:col-span-2 space-y-8">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+              <div className="p-6">
+                <h2 className="text-2xl font-semibold mb-4">Data Preview</h2>
+                <DataPreview data={data} />
+              </div>
             </div>
+            <DataVisualization data={data} />
           </div>
           <div className="space-y-8">
             <TransformPanel data={data} onDataTransformed={setData} />
