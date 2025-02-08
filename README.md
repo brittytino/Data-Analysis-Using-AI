@@ -1,69 +1,61 @@
-# Welcome to your Lovable project
+# AI-Ready Dataset Creation for Advanced Data Analysis
 
-## Project info
+## Abstract
+This project creates a solution to convert unstructured data into usable formats for advanced data analysis and machine learning. The goal is to develop an automated, low-code tool that saves time and enables organizations to make data-driven decisions.
 
-**URL**: https://lovable.dev/projects/2e83a719-47c7-4d3c-ae5e-52149df74696
+## Summary
+This project provides tools to transform unstructured data into AI-ready datasets. It includes features for data cleaning, normalization, visualization, and export in various formats. The solution is designed to be user-friendly and efficient, allowing users to quickly prepare their data for analysis and machine learning tasks.
 
-## How can I edit this code?
+## Features
+- **Data Upload**: Upload CSV files for processing.
+- **Data Preview**: Preview the uploaded data in a tabular format.
+- **Data Transformation**: Apply various transformations like cleaning missing values, normalization, and more.
+- **Data Visualization**: Generate charts to visualize data distributions.
+- **Version Management**: Manage different versions of datasets.
+- **Export Options**: Export processed data to CSV or JSON formats.
 
-There are several ways of editing your application.
+## Getting Started
+### Prerequisites
+- Node.js
+- npm
 
-**Use Lovable**
+### Installation
+1. Clone the repository:
+    ```sh
+    git clone <repository-url>
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd <project-directory>
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2e83a719-47c7-4d3c-ae5e-52149df74696) and start prompting.
+### Running the Project
+- To start the development server:
+    ```sh
+    npm run dev
+    ```
+- To build the project:
+    ```sh
+    npm run build
+    ```
+- To preview the build:
+    ```sh
+    npm run preview
+    ```
 
-Changes made via Lovable will be committed automatically to this repo.
+## Usage
+1. Upload a CSV file using the file upload component.
+2. Preview the uploaded data.
+3. Apply desired transformations.
+4. Visualize the data.
+5. Export the processed data.
 
-**Use your preferred IDE**
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2e83a719-47c7-4d3c-ae5e-52149df74696) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## License
+This project is licensed under the MIT License.
